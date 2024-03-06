@@ -52,7 +52,7 @@ body {
   align-items: center;
   justify-content: center;
 
-  height: 100vh;
+  min-height: 100vh;
 }
 
 p {
@@ -144,4 +144,11 @@ p {
 .author-name {
   font-weight: 800;
   font-size: 14px;
+}
+
+@media (max-width: 375px) {
+  .container {
+    width: 90%;
+    margin: auto;
+  }
 }
