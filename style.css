@@ -130,6 +130,7 @@ p {
 .text {
   color: hsl(0, 0%, 50%);
   font-weight: 500;
+  margin-bottom: 1.8rem;
 }
 
 .author-container {
@@ -151,5 +152,13 @@ p {
   .container {
     width: 90%;
     margin: auto;
+  }
+
+  .text--card {
+    font-size: 14px;
+  }
+
+  .title {
+    font-size: 20px;
   }
 }
