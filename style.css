@@ -1,0 +1,147 @@
+/* ## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+> 💡 These are just the design sizes. Ensure content is responsive and meets WCAG requirements by testing the full range of screen sizes from 320px to large screens.
+
+## Colors
+
+### Primary
+
+- Yellow: hsl(47, 88%, 63%)
+
+### Neutral
+
+- White: hsl(0, 0%, 100%)
+- Grey: hsl(0, 0%, 50%)
+- Black: hsl(0, 0%, 7%)
+
+## Typography
+
+### Body Copy
+
+- Font size (paragraph): 16px
+
+### Font
+
+- Family: [Figtree](https://fonts.google.com/specimen/Figtree)
+- Weights: 500, 800 */
+
+/* //////////////////////////////////////// */
+/* CARD */
+/* //////////////////////////////////////// */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: hsl(47, 88%, 63%);
+}
+
+body {
+  font-family: "Figtree";
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  height: 100vh;
+}
+
+p {
+  font-size: 16px;
+}
+
+.container {
+  background-color: hsl(0, 0%, 100%);
+  width: 380px;
+  height: auto;
+  padding: 1.2rem;
+
+  border: 1.5px solid hsl(0, 0%, 7%);
+  border-radius: 20px;
+
+  box-shadow: 8px 8px hsl(0, 0%, 7%);
+  transition: all 0.2s;
+}
+
+.container:hover {
+  box-shadow: 14px 14px hsl(0, 0%, 7%);
+}
+
+.img {
+  width: 100%;
+  align-items: center;
+  margin-bottom: 1.2rem;
+  border-radius: 10px;
+}
+
+.learning {
+  color: hsl(0, 0%, 7%);
+  background-color: hsl(47, 88%, 63%);
+  font-size: 16px;
+  font-weight: 800;
+
+  width: 28%;
+  text-align: center;
+  padding: 0.4rem;
+  margin-bottom: 0.8rem;
+
+  border-radius: 4px;
+}
+
+.pub-date,
+.title,
+.text {
+  margin-bottom: 0.8rem;
+}
+
+.pub-date {
+  color: hsl(0, 0%, 7%);
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.title {
+  font-weight: 800;
+}
+
+.title-link:link,
+.title-link:visited {
+  text-decoration: none;
+  color: hsl(0, 0%, 7%);
+}
+
+.title-link:hover,
+.title-link:active {
+  color: hsl(47, 88%, 63%);
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.text {
+  color: hsl(0, 0%, 50%);
+  font-weight: 500;
+}
+
+.author-container {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.author-img {
+  width: 30px;
+}
+
+.author-name {
+  font-weight: 800;
+  font-size: 14px;
+}
