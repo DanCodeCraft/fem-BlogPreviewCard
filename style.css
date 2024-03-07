@@ -56,12 +56,12 @@ body {
 }
 
 p {
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .container {
   background-color: hsl(0, 0%, 100%);
-  width: 380px;
+  max-width: 23.75rem;
   height: auto;
   padding: 1.2rem;
 
@@ -86,11 +86,11 @@ p {
 .learning {
   color: hsl(0, 0%, 7%);
   background-color: hsl(47, 88%, 63%);
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 800;
 
-  width: 28%;
-  text-align: center;
+  width: fit-content;
+  text-align: left;
   padding: 0.4rem;
   margin-bottom: 0.8rem;
 
@@ -106,12 +106,12 @@ p {
 .pub-date {
   color: hsl(0, 0%, 7%);
   font-weight: 500;
-  font-size: 14px;
+  font-size: 0.8rem;
 }
 
 .title {
   font-weight: 800;
-  font-size: 24px;
+  font-size: 1.5rem;
 }
 
 .title-link:link,
@@ -145,20 +145,20 @@ p {
 
 .author-name {
   font-weight: 800;
-  font-size: 14px;
+  font-size: 0.8rem;
 }
 
-@media (max-width: 375px) {
+@media (min-width: 23em) {
   .container {
     width: 90%;
     margin: auto;
   }
 
   .text--card {
-    font-size: 14px;
+    font-size: 0.8rem;
   }
 
   .title {
-    font-size: 20px;
+    font-size: 1.2rem;
   }
 }
