@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/DanCodeCraft/fem-BlogPreviewCard.git)
-- Live Site URL: [Add live site URL here](https://fem-blog-preview-card-one.vercel.app/)
+- Solution URL: [Solution](https://github.com/DanCodeCraft/fem-BlogPreviewCard.git)
+- Live Site URL: [Live Site](https://fem-blog-preview-card-one.vercel.app/)
 
 ## My process
 
