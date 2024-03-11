@@ -1,6 +1,6 @@
-# Frontend Mentor - Product preview card component solution
+# Frontend Mentor - Blog preview card solution
 
-This is a solution to the [Product preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+This is a solution to the [Blog preview card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/blog-preview-card-ckPaj01IcS). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -12,53 +12,52 @@ This is a solution to the [Product preview card component challenge on Frontend 
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
+
+A fun challenge to create a card for a blog preview, adding some nice hover effects.
+This is my second challenge. I hope I got it right!
+
+I certainly learned a lot from the previous one, and a lot more from this!
+I'm very open to criticism, so please go ahead!
 
 ### The challenge
 
 Users should be able to:
 
-- View the optimal layout depending on their device's screen size
-- See hover and focus states for interactive elements
+- See hover and focus states for all interactive elements on the page
 
 ### Screenshot
 
-![](./18ProductPreviewCard.png)
+![](./blogCardPreview_Desktop.png)
 
 ### Links
 
-- Solution URL: [Solution](https://github.com/DanCodeCraft/FEM-ProductPreview/tree/main)
-- Live Site URL: [Live Site](https://fem-product-preview-alpha.vercel.app/)
+- Solution URL: [Add solution URL here](https://github.com/DanCodeCraft/fem-BlogPreviewCard.git)
+- Live Site URL: [Add live site URL here](https://fem-blog-preview-card-one.vercel.app/)
 
 ## My process
 
-- Used the desktop design to write the HTML
-- Moved to the mobile design to design the card
-- Added the majority of the styling as reusable components
-- Manipulated the grid layout once mobile was done
+- First I reset all the defaults
+- Created the divs to built the HTML structure
+- Added the image and worked on how the layout would work best to avoid having extra work when adapting it to smaller screens
+- Styled following the given directions
+- Added the hover effects, one for the main card, one for the title/link
 
 ### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
-- Mobile-first workflow
+- Desktop-first workflow
+- Media query
 
 ### What I learned
 
-I learned a lot about manipulating grid layouts.
+I definitely was able to improve my workflow and how to think about the end of the project, rather than just starting from point A, hoping to achieve points B and C.
 
 ## Author
 
 - Website - [LinkedIn](https://www.linkedin.com/in/adannjacinto/)
 - Frontend Mentor - [@DanCodeCraft](https://www.frontendmentor.io/profile/DanCodeCraft)
-- Twitter - [@yourusername](https://www.twitter.com/DanCodeCraft)
-
-## Acknowledgments
-
-This challenge can be overwhelming if you start it from the desktop version.
-My pro-tip here is to use the Desktop to write the whole HTML, and then design the mobile first.
-This way you already have everything set for when creating media queries.
+- Twitter - [@DanCodeCraft](https://twitter.com/DanCodeCraft)
